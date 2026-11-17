@@ -11,6 +11,7 @@
     <li><a href="Практика 11/table.html">Данные в таблицах</a></li>
     <li><a href="Практика 12/baikal.html">Блочная вёрстка</a></li>
     <li><a href="Практика 13/valaam.html">Валаам</a></li>
+    <li><a href="Практика 25-26/radio.html">Валаам</a></li>
     <li><a href="Практика 27/test.html">ГИПУ на Google картах</a></li>
 </ul>
 
