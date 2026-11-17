@@ -21,13 +21,6 @@
         <li><a href="Практика 12/baikal.html">Блочная вёрстка</a></li>
         <li><a href="Практика 13/valaam.html">Валаам</a></li>
         <li><a href="Практика 27/test.html">ГИПУ на Google картах</a></li>
-
-        <li><a href="Примеры оформления текста/text.html">Примеры оформления текста</a></li>
-        <li><a href="Кошки/cats.html">Кошки</a></li>
-        <li><a href="Песни из мультфильмов/anchors.html">Песни из мультфильмов</a></li>
-        <li><a href="Собаки/dogs.html">Собаки</a></li>
-        <li><a href="Устройство компьютера/music.html">Устройство компьютера</a></li>
-        <li><a href="Флаги/flags.html">Флаги</a></li>
     </ul>
 </body>
 </html>
