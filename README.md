@@ -9,7 +9,7 @@
 </head>
 <body>
     <ul>
-        <li><a href="Практика 1 и 2/ex1.html"></a>Практика 1 и 2</li>
+        <li><a href="Практика 1 и 2/ex1.html">Практика 1 и 2</a></li>
         <li><a href="Практика 3/dogs.html">Собаки</a></li>
         <li><a href="Практика 4/lists.html">Списки</a></li>
         <li><a href="Практика 5/anchors.html">Песни из мультфильмов</a></li>
