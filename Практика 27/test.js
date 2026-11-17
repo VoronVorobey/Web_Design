@@ -31,4 +31,4 @@ function initPano() {
   );
 }
 
-initPano()
+setTimeout(initPano, 3000);
