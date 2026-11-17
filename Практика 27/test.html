@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ГИПУ — Google Street View</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #pano {
+      width: 800px;
+      height: 400px;
+      border: 5px solid #2E9AFF
+    }
+    #map{
+      width: 800px;
+      height: 400px;
+      border: 5px solid #FF0000
+    }
+    iframe{
+      width: 800px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+    <h1>Работа Ворончихина Дениса!</h1>
+    <button onclick="initPano()">Запустить панораму</button>
+    <br>
+    <br>
+  <div id="pano"></div>
+  <div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1794912045362!6m8!1m7!1sCnDFaOiV3taZ_HvSvHWsuA!2m2!1d58.13850953674587!2d52.67456293676753!3f193.32873924231816!4f-11.3841537399352!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKtFIMFbDrYdXPzBtGfoEIyHMTvV8KqRk" 
+    async 
+    defer>
+  </script>
+  <script src="test.js"></script>
+
+</body>
+</html>

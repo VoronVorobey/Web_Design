@@ -1,0 +1,25 @@
+body{
+    background-image: url("images/back.jpg");
+    color: white;
+    width: 960px; 
+    margin: 0 auto;
+}
+
+.name{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(19, 235, 255);
+}
+
+img{
+    margin: 10px;
+    width: 120px;
+    height: 150px;
+}
+
+.left-img {
+    float: left;
+}
+.right-img {
+    float: right;
+}

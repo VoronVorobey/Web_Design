@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="valaam.css">
+    <title>Валаам: работа Ворончихина Дениса!</title>
+</head>
+<body>
+    
+    <!-- Шапка документа без лишних рамок -->
+    <div class="header-container">
+        <h1>Остров Валаам</h1>
+        <a href="http://valaam.ru" target="_blank">
+            <img id="valaam-logo" src="images/valaam_gray.gif" alt="valaam.ru">
+        </a>
+    </div>
+
+    <!-- Первый плавающий блок — теперь строго СЛЕВА, как на образце -->
+    <div class="float-block left-main">
+        <img src="images/valaam.jpg" alt="Остров Валаам">
+        <p class="caption">Фото А.&nbsp;Колыбалова (<a href="http://rg.ru" target="_blank">www.rg.ru</a>)</p>
+    </div>
+
+    <p>Валаам&nbsp;&mdash; остров в&nbsp;северной части Ладожского озера, самый большой в&nbsp;составе Валаамского архипелага. На&nbsp;острове расположен посёлок Валаам, входящий в&nbsp;Сортавальское городское поселение, и&nbsp;Валаамский ставропигиальный мужской монастырь, являющийся памятником русского зодчества. Название острова, возможно, происходит от&nbsp;финно-угорского слова «валамо»&nbsp;&mdash; высокая (горная) земля.</p>
+    
+    <p>Остров неоднократно посещали императоры Александр&nbsp;I и&nbsp;Александр&nbsp;II, другие члены императорской фамилии. Также приезжал на&nbsp;Валаам святитель Игнатий (Брянчанинов).</p>
+    
+    <p>Природа Валаама вдохновляла известнейших <span id="show-more-trigger">гениев творчества и&nbsp;науки</span></p>
+
+    <!-- Скрытый блок (по умолчанию спрятан) -->
+    <div id="hidden-content">
+        <p>Здесь побывали художники И.&nbsp;И.&nbsp;Шишкин, Ф.&nbsp;А.&nbsp;Васильев, А.&nbsp;И.&nbsp;Куинджи, писатели и&nbsp;поэты Н.&nbsp;С.&nbsp;Лесков, Ф.&nbsp;И.&nbsp;Тютчев, А.&nbsp;Н.&nbsp;Апухтин, И.&nbsp;С.&nbsp;Шмелёв, Б.&nbsp;К.&nbsp;Зайцев, композиторы П.&nbsp;И.&nbsp;Чайковский, А.&nbsp;К.&nbsp;Глазунов, учёные М.&nbsp;Н.&nbsp;Миклухо-Маклай, Д.&nbsp;И.&nbsp;Менделеев и&nbsp;множество других. В&nbsp;XIX веке во&nbsp;время своего путешествия по&nbsp;России остров посетил Александр Дюма-отец.</p>
+        <div class="float-block right-inner">
+            <img src="images/pristan.jpg" alt="Резьба по дереву">
+            <p class="caption">К.&nbsp;Гоголев. «На&nbsp;пристани» (резьба по&nbsp;дереву)</p>
+        </div>
+        <p>Хорошо известны валаамские пейзажи, написанные И.&nbsp;И.&nbsp;Шишкин («Вид Валаама», 1860), А.&nbsp;И.&nbsp;Куинджи («На&nbsp;острове Валаам», 1873) и&nbsp;Николаем Рерихом («Святой остров», 1917). Ряд современных художников, в&nbsp;частности, известный петрозаводский график А.&nbsp;И.&nbsp;Авдышев, в&nbsp;1970-х годах создал серию чёрно-белых линогравюр. Приезжал на&nbsp;Валаам и&nbsp;посвящал ему свои работы мастер объёмной резьбы по&nbsp;дереву, сортавальский художник Кронид Гоголев.</p>
+        
+        <!-- Внутренний плавающий блок внутри скрытого -->
+        
+        
+        <div class="clear"></div>
+        <p class="hide-link-wrapper"><a href="#" id="hide-content-trigger">Свернуть</a></p>
+    </div>
+
+    <!-- Блок формы вопроса -->
+    <form id="quiz-form">
+        <p><strong>Назовите ближайший город, из&nbsp;которого можно приехать на&nbsp;о.&nbsp;Валаам:</strong></p>
+        <div class="form-row">
+            <input type="text" id="answer-input">
+            <button type="submit">Ответить</button>
+        </div>
+    </form>
+
+    <script src="valaam.js"></script>
+</body>
+</html>

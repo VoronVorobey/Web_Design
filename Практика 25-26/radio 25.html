@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Работа Ворончихин Денис!</title>
+</head>
+<body>
+    <h1>Работа Ворончихин Денис!</h1>
+    <h2>Задача 25.1</h2>
+    <form>
+        <input type="radio" checked name="radiostation" value="East" onchange="handleChange(this)"">Радиостанция Восток</input>
+        <br>
+        <input type="radio" name="radiostation" value="Live" onchange="handleChange(this)">Радиостанция Live</input>
+        <br>
+        <input type="radio" name="radiostation" value="Mayak" onchange="handleChange(this)">Радиостанция Маяк</input>
+    </form>
+    <br>
+    <hr>
+    <div id="result">Выбрана радиостанция: </div>
+    <br>
+    <img class="RadioImg" value="East" src="images/East.png" alt="">
+    <br>
+    <img class="RadioImg" value="Live" src="images/Live.png" alt="">
+    <br>
+    <img class="RadioImg" value="Mayak" src="images/Mayak.png" alt="">
+    <script src="test25_1.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPXaFjMAWdrzwzbvKartNGg"></script>
+    <title>Работа Ворончихин Денис!</title>
+</head>
+<body>
+    <h1>Работа Ворончихин Денис!</h1>
+
+    <script src="test25_1.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,129 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #000;
+    background-color: #fff;
+    margin: 15px;
+    padding: 0;
+}
+
+/* Элементы шапки в одну строку */
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+}
+
+.header-container img {
+    vertical-align: middle;
+    border: 0;
+}
+
+/* Стилизация плавающих блоков */
+.float-block {
+    border: 1px solid #999;
+    padding: 4px;
+    background-color: #fff;
+}
+
+/* Главное фото: обтекание слева */
+.float-block .left-main {
+    float: left;
+    width: 280px; 
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+/* ИСПРАВЛЕНО: Внутреннее фото в скрытом блоке теперь строго СПРАВА */
+.float-block.right-inner {
+    float: right; /* Поменяли left на right */
+    width: 200px; /* Немного увеличили для соответствия образцу */
+    margin-left: 15px; /* Отступ теперь слева от картинки */
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.float-block img {
+    width: 100%;
+    display: block;
+}
+
+/* Подписи к фото по ТЗ */
+.caption {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 80%;
+    margin: 4px 0 0 0;
+    text-align: center;
+}
+
+/* Текст и абзацы */
+p {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    text-align: justify;
+}
+
+/* Ссылка-триггер открытия */
+#show-more-trigger {
+    color: #0000CC;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Скрытый блок по ТЗ */
+#hidden-content {
+    display: none;
+    background-color: #EEEEFF;
+    border: 1px solid blue;
+    padding: 10px 10px 5px 10px; /* Отступы по бокам 10px */
+    margin: 10px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ИСПРАВЛЕНО: Ссылка "Свернуть" теперь выравнивается ПО ЛЕВОМУ КРАЮ */
+.hide-link-wrapper {
+    text-align: left; /* Поменяли right на left */
+    margin: 10px 0 5px 0;
+    clear: both;
+}
+
+/* Форма ответа */
+#quiz-form {
+    margin-top: 20px;
+    clear: both;
+}
+
+#quiz-form p {
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    gap: 8px;
+}
+
+#answer-input {
+    width: 180px;
+    padding: 2px 4px;
+    font-size: 0.9em;
+}
+
+button {
+    padding: 2px 12px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
