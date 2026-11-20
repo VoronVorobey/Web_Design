@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа Ворончихина Дениса!</title>
+    
+</head>
+<body>
+
+    <h1>Работа Ворончихина Дениса!</h1>
+
+    <!-- Задача 1 -->
+    <div class="task-container">
+        <h2>Задача 1. Вывод данных (inline)</h2>
+        <button onclick="alert('Работа Ворончихина Дениса!')">Старт</button>
+    </div>
+
+    <!-- Задача 2 -->
+    <div class="task-container">
+        <h2>Задача 2. Сумма двух чисел в коде (inline)</h2>
+        <button onclick="
+            let num1 = 10; 
+            let num2 = 11; 
+            let sum = num1 + num2; 
+            let author = 'Работа Ворончихина Дениса!'; 
+            alert(author + '\n' + 'Сумма: ' + num1 + ' + ' + num2 + ' = ' + sum);
+        ">Сумма</button>
+    </div>
+
+    <!-- Задача 3 -->
+    <div class="task-container">
+        <h2>Задача 3. Склейка строк в блоке script</h2>
+        <button onclick="
+            let num1 = 10; 
+            let num2 = 11; 
+            let sum = num1 + num2; 
+            let author = 'Работа Ворончихина Дениса!'; 
+            alert(author + '\n' + 'Сумма: ' + num1 + ' + ' + num2 + ' = ' + sum);
+        ">Сумма</button>
+        <script>
+            let firstname = "Ворончихин";
+            let secondname = "Денис";
+            let author2 = "Работа " + firstname + " " + secondname + "!";
+            console.log("Вывод из Задачи 3:", author2);
+        </script>
+    </div>
+
+    <!-- Задача 4 -->
+    <div class="task-container">
+        <h2>Задача 4. Пользовательский ввод (через prompt)</h2>
+        <p><i>Примечание: код из внешнего файла test24_4.js перенесен сюда.</i></p>
+        <button onclick="runTask4()">Запустить ввод чисел</button>
+        <script>
+            function runTask4() {
+                console.log("Работа Ворончихина Дениса!");
+                let num1 = Number(prompt("Число a: "));
+                let num2 = Number(prompt("Число b: "));
+                let sum = num1 + num2;
+                let result = num1 + " + " + num2 + " = " + sum;
+                console.log(result);
+                alert("Результат (также выведен в консоль):\n" + result);
+            }
+        </script>
+    </div>
+
+    <!-- Задача 5 -->
+    <div class="task-container">
+        <h2>Задача 5. Форма с радиокнопками</h2>
+        <form id="radioForm">
+            <label><input type="radio" checked name="radistation" value="МОЯ"> Радиостанция МОЯ</label><br>
+            <label><input type="radio" name="radistation" value="ОНО"> Радиостанция ОНО</label><br>
+            <label><input type="radio" name="radistation" value="КРЫСА"> Радиостанция КРЫСА</label>
+        </form>
+        <br>
+        <button onclick="runTask5()">Вывести выбор в консоль</button>
+        <script>
+            function runTask5() {
+                let radios = document.getElementsByName('radistation');
+                for (let radio of radios) {
+                    if (radio.checked) {
+                        console.log("Выбрана радиостанция:", radio.value);
+                        alert("Выбрана: Радиостанция " + radio.value);
+                        break;
+                    }
+                }
+            }
+        </script>
+    </div>
+
+</body>
+</html>
