@@ -18,8 +18,9 @@
     <li><a href="figma-18/index.himl">Основы Figma — Блок 2</a></li>
     <li><a href="figma-19/index.himl">Основы Figma — Блок 3</a></li>
     <li><a href="figma-20/index.himl">Основы Figma — Блок 4</a></li>
-    <li><a href="figma-21/index.himl">(Практика 21 и 22)Проектная работа 1 в Figma</a></li>
-    <li><a href="figma-22/index.himl">Проектная работа 2 в Figma</a></li>
+    <li><a href="figma-21-22/index.himl">(Практика 21 и 22)Проектная работа 1 в Figma</a></li>
+    <li><a href="figma-23/index.himl">Проектная работа 2 в Figma</a></li>
+    <li><a href="Практика 24/index.html">JavaScript</a></li>
     <li><a href="Практика 25-26/radio.html">Радио</a></li>
     <li><a href="Практика 27/test.html">ГИПУ на Google картах</a></li>
 </ul>
